@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+      background-color: hsl(212, 45%, 89%);
+    }
+    .box{
+      background-color: white;
+      width: 20rem;
+      display: flex;
+      flex-direction: column;
+      border-radius: 1rem;
+      position: absolute;
+      left: 41%;
+      top: 20%;
+    }
+    p{
+      font-family: "outfit";
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      padding: 0.75rem 1.25rem;
+      margin: 0;
+    }
+    img{
+      align-items: center;
+      justify-content: center;
+    }
+    .main{
+      font-size: 20px;
+      font-weight: bold;
+      color: hsl(218, 44%, 22%);
+    }
+    .side{
+      color: hsl(220, 15%, 55%);
+    }
+    img{
+      padding: 1rem 1rem 0 1rem;
+      border-radius: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <img src="images/image-qr-code.png" alt="qr-code">
+    <p class="main">Improve your front-end skills by building projects</p>
+    <p class="side">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Dhanush</a>.
+  </div>
+</body>
+</html>
